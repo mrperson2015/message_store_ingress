@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 CONTAINER_NAME="msg_store-data_api"
-IMAGE="cam/message_store_data_api"
+IMAGE="cam/message_store_ingress"
 
 docker pull $IMAGE:latest
 

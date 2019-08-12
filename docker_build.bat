@@ -1,1 +1,1 @@
-docker build -t cam/message_store_data_api:latest -t cam/message_store_data_api:12 %CD%
+docker build -t cam/message_store_ingress:latest -t cam/message_store_ingress:12 %CD%

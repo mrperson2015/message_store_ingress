@@ -1,7 +1,7 @@
 @echo OFF
 
 SET CONTAINER_NAME=msg_store-data_api
-SET IMAGE="cam/message_store_data_api"
+SET IMAGE="cam/message_store_ingress"
 
 FOR /F "tokens=* USEBACKQ" %%g IN (`docker container ls -a --format "{{.Names}}"`) do (
     echo %%g=%CONTAINER_NAME%
